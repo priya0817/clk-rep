@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Countdown timer</title>
+	<meta charset="UTC-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!--<link src="stylesheet" href="style.css">
+	-->
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+		box-sizing : border-box;
+}
+
+body {
+		background-image : url("snow.jpg");
+		background-size : cover;
+		background-position : center center;
+		display : flex;
+		flex-direction : column ;
+		align-items : center;
+		justify-content : center;
+		min-height : 100vh;
+		background-repeat: no-repeat;
+		font-family : "poppins", sans-serif;
+		margin : 0;
+}
+
+.countdown-container {
+	display : flex;
+
+}
+
+h1 {
+	font-size : 4rem;
+	margin-top : -12rem;
+}
+
+.big-text {
+	font-weight: normal;
+	font-size : 6rem;
+	line-height : 1;
+	margin : 0 2rem;
+}
+	
+.countdown-el {
+	text-align : center
+}
+
+.countdown-el span{
+	font-size : 1.3rem;
+}
+	</style>
+	<script src="script.js" defer>
+	</script>
+</head>
+<body>
+	<h1> New Era begins in :  </h1>
+	<div class="countdown-container">
+		<div class="countdown-el days-c">
+			<p class="big-text" id = "days"> 0 </p>
+				<span> days </span>
+			
+			
+		</div>
+		<div class="countdown-el hours-c">
+			<p class="big-text" id = "hours"> 0 </p>
+				<span> hours </span>
+			
+			
+		</div>
+		<div class="countdown-el mins-c">
+			<p class="big-text" id = "mins"> 0 </p>
+				<span> mins </span>
+			
+			
+		</div>
+		<div class="countdown-el seconds-c">
+			<p class="big-text" id = "seconds"> 0</p> 
+				<span> seconds </span>
+			
+			
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
